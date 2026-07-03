@@ -1,4 +1,4 @@
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Rayfield = loadstring(game:HttpGet('https://[Log in to view URL]'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "Troll Menu",
@@ -6,7 +6,7 @@ local Window = Rayfield:CreateWindow({
    LoadingTitle = "Troll Interface Suite",
    LoadingSubtitle = "by Ynishen",
    ShowText = "Rayfield", -- for mobile users to unhide Rayfield, change if you'd like
-   Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+   Theme = "Default", -- Check https://[Log in to view URL]
 
    ToggleUIKeybind = "K", -- The keybind to toggle the UI visibility (string like "K" or Enum.KeyCode)
 
@@ -82,7 +82,7 @@ end
 local Button = MainTab:CreateButton({
    Name = "Invisibility (Walk To Active/Deactivate)",
    Callback = function()
-    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Invisible-script-20557"))()
+    loadstring(game:HttpGet("https://[Log in to view URL]"))()
    end,
 })
 
@@ -142,6 +142,16 @@ local Button = OtherTab:CreateButton({
            --[[
 	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
 ]]
-loadstring(game:HttpGet("https://raw.githubusercontent.com/makkurokurosukescript/VFly-gui/refs/heads/main/VFly%20gui", true))()
+loadstring(game:HttpGet("https://[Log in to view URL]", true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Aimbot",
+   Callback = function()
+           --[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://pastebin.com/raw/fbwYKNEr",true))()
    end,
 })
