@@ -80,6 +80,13 @@ end
 })
 
 local Button = MainTab:CreateButton({
+   Name = "Super Jump",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/nigletlmao/Super-Jump/main/SuperJump.txt"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
    Name = "Invisibility (Walk To Active/Deactivate)",
    Callback = function()
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Invisible-script-20557"))()
@@ -153,5 +160,68 @@ local Button = OtherTab:CreateButton({
 	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
 ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NextGenNu/MenuUniversalPassword/refs/heads/main/script.lua"))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Nuker",
+   Callback = function()
+   --[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://pastebin.com/raw/MZ28MqXj"))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Fling All",
+   Callback = function()
+   --[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://pastefy.app/B1gZQoWi/raw"))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Chat Bypass",
+   Callback = function()
+   --[[
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://pastebin.com/raw/DVWC6p2p"))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "ID Finder",
+   Callback = function()
+   --[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet('https://pastebin.com/raw/UNWyqYXb'))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Product Faker",
+   Callback = function()
+   --[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+-- Product Faker
+loadstring(game:HttpGet("https://pastefy.app/yVlxzwk8/raw"))()
+-- Wont Work Everywhere But Worth Trying
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Dont Click (Really.. Dont)",
+   Callback = function()
+   --[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://pastebin.com/raw/PxeyZMnk"))()
    end,
 })
